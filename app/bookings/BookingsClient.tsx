@@ -18,7 +18,7 @@ export default function BookingsClient() {
   return (
     <div className="flex min-h-screen relative">
       <Sidebar activePage="My Bookings" />
-      <MobileNav activePage="Schedule" />
+      <MobileNav activePage="Sched" />
 
       <main className="flex-1 lg:ml-64 p-6 md:p-10 pt-20 lg:pt-10 mb-20 lg:mb-0">
         <div className="max-w-6xl mx-auto space-y-12">
@@ -26,7 +26,7 @@ export default function BookingsClient() {
           <section className="relative">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
               <div>
-                <h1 className="text-4xl md:text-5xl font-headline font-extrabold text-on-surface mb-2">Welcome back, Rafael!</h1>
+                <h1 className="text-2xl sm:text-3xl md:text-5xl font-headline font-extrabold text-on-surface mb-2">Welcome back, Rafael!</h1>
                 <p className="text-on-surface-variant font-body text-lg">You have <span className="text-primary font-bold">2 upcoming matches</span> this week.</p>
               </div>
               <div className="flex gap-4">

@@ -4,6 +4,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileNav from "@/components/MobileNav";
 
 const COURTS = [
   { 
@@ -64,10 +65,11 @@ export default function BookCourtClient() {
   return (
     <>
       <Navbar />
-      <main className="max-w-7xl mx-auto px-6 pt-12 pb-24">
+      <MobileNav activePage="" />
+      <main className="max-w-7xl mx-auto px-6 pt-24 lg:pt-12 pb-24">
         {/* Hero Header */}
         <header className="mb-12 relative">
-          <h1 className="text-5xl md:text-7xl font-headline font-black italic tracking-tighter uppercase text-primary">Reserve the Velocity</h1>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-headline font-black italic tracking-tighter uppercase text-primary">Reserve the Velocity</h1>
           <p className="text-on-surface-variant font-body mt-4 max-w-xl text-lg">Select your arena, choose your timing, and enter the flow. High-performance Padel awaits.</p>
           <div className="absolute -right-12 -top-12 w-64 h-64 bg-primary/5 blur-[120px] rounded-full" />
         </header>

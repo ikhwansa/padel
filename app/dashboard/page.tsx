@@ -11,7 +11,7 @@ export default function DashboardPage() {
   return (
     <div className="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
       <Sidebar activePage="Dashboard" />
-      <MobileNav activePage="Home" />
+      <MobileNav activePage="Dash" />
 
       <main className="lg:ml-64 min-h-screen pt-20 lg:pt-8 pb-32 px-6 lg:px-12 max-w-[1400px] mx-auto">
         {/* Welcome Header */}
@@ -20,7 +20,7 @@ export default function DashboardPage() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
             <div>
               <h2 className="text-on-surface-variant font-label text-sm uppercase tracking-widest mb-2">Member Dashboard</h2>
-              <h1 className="text-4xl md:text-5xl font-headline font-black text-primary leading-none">Welcome Back, Alex.</h1>
+              <h1 className="text-2xl sm:text-3xl md:text-5xl font-headline font-black text-primary leading-none">Welcome Back, Alex.</h1>
             </div>
             <div className="flex gap-2">
               <span className="flex items-center gap-2 px-3 py-1 bg-surface-container-highest rounded-full text-xs font-bold text-tertiary border border-tertiary/20">

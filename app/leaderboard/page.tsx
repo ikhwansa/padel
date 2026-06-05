@@ -34,7 +34,7 @@ export default function LeaderboardPage() {
         <header className="mb-12 relative">
           <div className="absolute -top-24 -left-24 w-64 h-64 bg-primary-container/10 blur-[100px] rounded-full" />
           <h2 className="text-on-surface-variant font-label text-xs uppercase tracking-widest mb-2">Hall of Fame</h2>
-          <h1 className="text-4xl md:text-5xl font-headline font-black text-white leading-none tracking-tighter">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-headline font-black text-white leading-none tracking-tighter">
             THE <span className="text-primary-container italic">LEADERBOARD</span>
           </h1>
           <p className="text-on-surface-variant text-sm mt-4 max-w-md">
@@ -58,7 +58,7 @@ export default function LeaderboardPage() {
                   <p className="text-primary-container font-mono text-sm font-bold">{topPlayers[0].points} PTS</p>
                   <p className="text-[10px] text-on-surface-variant uppercase tracking-widest font-black mt-1">{topPlayers[0].winRate}% WIN RATE</p>
                </div>
-               <div className="w-full h-24 bg-gradient-to-t from-surface-container-low to-transparent mt-4 rounded-t-xl opacity-40" />
+               <div className="hidden md:block w-full h-24 bg-gradient-to-t from-surface-container-low to-transparent mt-4 rounded-t-xl opacity-40" />
             </div>
 
             {/* 1st Place */}
@@ -77,7 +77,7 @@ export default function LeaderboardPage() {
                   <p className="text-primary font-mono text-xl font-bold">{topPlayers[1].points} PTS</p>
                   <p className="text-xs text-on-surface-variant uppercase tracking-widest font-black mt-2">{topPlayers[1].winRate}% WIN RATE</p>
                </div>
-               <div className="w-full h-40 bg-gradient-to-t from-primary/10 to-transparent mt-6 rounded-t-2xl border-t border-primary/20" />
+               <div className="hidden md:block w-full h-40 bg-gradient-to-t from-primary/10 to-transparent mt-6 rounded-t-2xl border-t border-primary/20" />
             </div>
 
             {/* 3rd Place */}
@@ -93,7 +93,7 @@ export default function LeaderboardPage() {
                   <p className="text-primary-container font-mono text-sm font-bold">{topPlayers[2].points} PTS</p>
                   <p className="text-[10px] text-on-surface-variant uppercase tracking-widest font-black mt-1">{topPlayers[2].winRate}% WIN RATE</p>
                </div>
-               <div className="w-full h-16 bg-gradient-to-t from-surface-container-low to-transparent mt-4 rounded-t-xl opacity-30" />
+               <div className="hidden md:block w-full h-16 bg-gradient-to-t from-surface-container-low to-transparent mt-4 rounded-t-xl opacity-30" />
             </div>
           </div>
         </section>

@@ -34,7 +34,7 @@ export default function MatchmakingClient() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <h1 className="font-headline text-5xl font-extrabold tracking-tighter text-primary">FIND YOUR RHYTHM</h1>
+            <h1 className="font-headline text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tighter text-primary">FIND YOUR RHYTHM</h1>
             <p className="text-on-surface-variant mt-2 max-w-md">Connect with players at your level and join competitive or social matches happening today.</p>
           </div>
           <div className="flex flex-wrap gap-3">

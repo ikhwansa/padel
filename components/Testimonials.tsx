@@ -7,7 +7,7 @@ export default function Testimonials() {
           <span className="text-tertiary font-label uppercase tracking-widest text-sm mb-2">
             The Community
           </span>
-          <h2 className="font-headline text-5xl font-black italic uppercase">
+          <h2 className="font-headline text-3xl md:text-5xl font-black italic uppercase">
             In Their Own{" "}
             <span className="text-on-surface-variant">Words</span>
           </h2>

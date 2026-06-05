@@ -20,7 +20,7 @@ export default function CreateMatchPage() {
             Back to Matchmaking
           </Link>
           
-          <h1 className="text-4xl md:text-6xl font-headline font-black text-primary uppercase tracking-tighter italic shadow-primary/20 drop-shadow-xl">
+          <h1 className="text-2xl sm:text-3xl md:text-6xl font-headline font-black text-primary uppercase tracking-tighter italic shadow-primary/20 drop-shadow-xl">
             Host a Session
           </h1>
           <p className="text-on-surface-variant mt-2 max-w-xl text-lg font-body">

@@ -13,7 +13,7 @@ export default function Navbar() {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className="sticky top-0 z-50 bg-surface/80 backdrop-blur-md shadow-[0_10px_30px_-15px_rgba(202,253,0,0.1)] border-b border-outline-variant/10">
+    <nav className="hidden lg:block sticky top-0 z-50 bg-surface/80 backdrop-blur-md shadow-[0_10px_30px_-15px_rgba(202,253,0,0.1)] border-b border-outline-variant/10">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 h-20">
         <Link href="/" className="text-2xl font-black text-primary italic font-headline tracking-tight">
           The Kinetic Court

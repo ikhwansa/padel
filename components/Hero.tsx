@@ -23,7 +23,7 @@ export default function Hero() {
             </span>
           </div>
 
-          <h1 className="font-headline text-6xl md:text-8xl font-black italic text-primary leading-none tracking-tighter">
+          <h1 className="font-headline text-4xl sm:text-6xl md:text-8xl font-black italic text-primary leading-none tracking-tighter">
             VANTAGE <br />
             <span className="text-on-surface">POINT PADEL</span>
           </h1>

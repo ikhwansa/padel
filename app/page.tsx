@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Navbar />
       <MobileNav activePage="Home" />
-      <main className="relative overflow-hidden">
+      <main className="relative overflow-hidden pt-20 lg:pt-0">
         <Hero />
         <About />
         <Facilities />

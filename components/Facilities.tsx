@@ -6,7 +6,7 @@ export default function Facilities() {
         {/* Header */}
         <div className="mb-16 text-center lg:text-left flex flex-col lg:flex-row lg:items-end justify-between gap-6">
           <div>
-            <h2 className="font-headline text-5xl font-black mb-4">
+            <h2 className="font-headline text-3xl md:text-5xl font-black mb-4">
               PREMIUM{" "}
               <span className="text-secondary italic">FACILITIES</span>
             </h2>

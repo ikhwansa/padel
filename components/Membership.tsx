@@ -8,7 +8,7 @@ export default function Membership() {
       <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/5 -skew-x-12 translate-x-20" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <h2 className="font-headline text-5xl font-black text-center mb-16">
+        <h2 className="font-headline text-3xl md:text-5xl font-black text-center mb-8 md:mb-16">
           CHOOSE YOUR <span className="text-primary italic">TIER</span>
         </h2>
 
