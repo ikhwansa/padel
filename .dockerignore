@@ -3,5 +3,4 @@
 node_modules
 .dockerignore
 Dockerfile
-package-lock.json
 README.md
